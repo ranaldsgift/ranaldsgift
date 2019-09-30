@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ranaldsgift/static/css/main.d6bc826d.chunk.css",
+    "main.js": "/ranaldsgift/static/js/main.a0460987.chunk.js",
+    "main.js.map": "/ranaldsgift/static/js/main.a0460987.chunk.js.map",
+    "runtime~main.js": "/ranaldsgift/static/js/runtime~main.90e6ba61.js",
+    "runtime~main.js.map": "/ranaldsgift/static/js/runtime~main.90e6ba61.js.map",
+    "static/css/2.4d672712.chunk.css": "/ranaldsgift/static/css/2.4d672712.chunk.css",
+    "static/js/2.849e6f33.chunk.js": "/ranaldsgift/static/js/2.849e6f33.chunk.js",
+    "static/js/2.849e6f33.chunk.js.map": "/ranaldsgift/static/js/2.849e6f33.chunk.js.map",
+    "index.html": "/ranaldsgift/index.html",
+    "precache-manifest.fe062c765298f9b5714e5fdfb18a220e.js": "/ranaldsgift/precache-manifest.fe062c765298f9b5714e5fdfb18a220e.js",
+    "service-worker.js": "/ranaldsgift/service-worker.js",
+    "static/css/2.4d672712.chunk.css.map": "/ranaldsgift/static/css/2.4d672712.chunk.css.map",
+    "static/css/main.d6bc826d.chunk.css.map": "/ranaldsgift/static/css/main.d6bc826d.chunk.css.map",
+    "static/media/App.css": "/ranaldsgift/static/media/hex-frame-07.629e0c5d.png",
+    "static/media/Background.css": "/ranaldsgift/static/media/label-14.dbf7fb5d.png",
+    "static/media/EditBuildPage.css": "/ranaldsgift/static/media/label-06.1a914cb2.png",
+    "static/media/InventoryItemDisplay.css": "/ranaldsgift/static/media/background22.ed2290bd.png",
+    "static/media/HeroTalents.css": "/ranaldsgift/static/media/talent-lock-icon.adcaacad.png",
+    "static/media/home-frame.png": "/ranaldsgift/static/media/home-frame.c7ecb2c5.png",
+    "static/media/home.mp4": "/ranaldsgift/static/media/home.b55f0801.mp4",
+    "static/media/Weapons.css": "/ranaldsgift/static/media/sienna-sword.808b9653.png",
+    "static/media/Heroes.css": "/ranaldsgift/static/media/skill.f787ce7c.png",
+    "static/media/HeroSelect.css": "/ranaldsgift/static/media/portrait.d0fd4400.png",
+    "static/media/Talents.css": "/ranaldsgift/static/media/talent-18.fcd113a1.png"
+  }
+}
