@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26b770a023fe4f77e09cd6e9c0713b9f",
+    "revision": "4c0fda4d3bf21ae72c95b96ffaad90a5",
     "url": "/ranaldsgift/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ranaldsgift/static/css/2.4d672712.chunk.css"
   },
   {
-    "revision": "fdc01c5beec0a130bdf4",
-    "url": "/ranaldsgift/static/css/main.ead0e7e4.chunk.css"
+    "revision": "2b2a5608357efb35cd45",
+    "url": "/ranaldsgift/static/css/main.0559505e.chunk.css"
   },
   {
     "revision": "03d29a04f5bfaa20305c",
     "url": "/ranaldsgift/static/js/2.849e6f33.chunk.js"
   },
   {
-    "revision": "fdc01c5beec0a130bdf4",
-    "url": "/ranaldsgift/static/js/main.6df0d10f.chunk.js"
+    "revision": "2b2a5608357efb35cd45",
+    "url": "/ranaldsgift/static/js/main.3688c110.chunk.js"
   },
   {
     "revision": "118b506037a05bfe6c1c",
