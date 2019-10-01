@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c0fda4d3bf21ae72c95b96ffaad90a5",
+    "revision": "1a823bab99a124efbf0fdfe2599a3f8a",
     "url": "/ranaldsgift/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ranaldsgift/static/css/2.4d672712.chunk.css"
   },
   {
-    "revision": "2b2a5608357efb35cd45",
-    "url": "/ranaldsgift/static/css/main.0559505e.chunk.css"
+    "revision": "c8d0b0f0d143890d14b4",
+    "url": "/ranaldsgift/static/css/main.70f32c40.chunk.css"
   },
   {
     "revision": "03d29a04f5bfaa20305c",
     "url": "/ranaldsgift/static/js/2.849e6f33.chunk.js"
   },
   {
-    "revision": "2b2a5608357efb35cd45",
-    "url": "/ranaldsgift/static/js/main.3688c110.chunk.js"
+    "revision": "c8d0b0f0d143890d14b4",
+    "url": "/ranaldsgift/static/js/main.d1ac41f2.chunk.js"
   },
   {
     "revision": "118b506037a05bfe6c1c",
@@ -438,6 +438,66 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d0fd44001b59b8edaa9b0e5adb0781fc",
     "url": "/ranaldsgift/static/media/portrait.d0fd4400.png"
+  },
+  {
+    "revision": "12c87e845e2fc4fb55366924883ca568",
+    "url": "/ranaldsgift/static/media/render.12c87e84.jpg"
+  },
+  {
+    "revision": "162d96524f69aa56f31209c8cd4a75a8",
+    "url": "/ranaldsgift/static/media/render.162d9652.jpg"
+  },
+  {
+    "revision": "211de25519ccb57562d35329060a87ca",
+    "url": "/ranaldsgift/static/media/render.211de255.jpg"
+  },
+  {
+    "revision": "34ed48827cd0eb61a731b727de84c531",
+    "url": "/ranaldsgift/static/media/render.34ed4882.jpg"
+  },
+  {
+    "revision": "3c77ff9ce80dd22e5475715f848cc188",
+    "url": "/ranaldsgift/static/media/render.3c77ff9c.jpg"
+  },
+  {
+    "revision": "545c00b7c26790dc7c9add23ee5c113e",
+    "url": "/ranaldsgift/static/media/render.545c00b7.jpg"
+  },
+  {
+    "revision": "5e26fabd42478da0c3f4636b34b4d5ae",
+    "url": "/ranaldsgift/static/media/render.5e26fabd.jpg"
+  },
+  {
+    "revision": "8074a0ff6447c40a3345170bb9ac4139",
+    "url": "/ranaldsgift/static/media/render.8074a0ff.jpg"
+  },
+  {
+    "revision": "93627aff9ea1d70b7332205f7b228a86",
+    "url": "/ranaldsgift/static/media/render.93627aff.jpg"
+  },
+  {
+    "revision": "97cb6d9f450166df249aa1d058fc1430",
+    "url": "/ranaldsgift/static/media/render.97cb6d9f.jpg"
+  },
+  {
+    "revision": "a1da939b52e1da9fe08f1c4de559b6f6",
+    "url": "/ranaldsgift/static/media/render.a1da939b.jpg"
+  },
+  {
+    "revision": "b4b794c65446f73628e935a480188025",
+    "url": "/ranaldsgift/static/media/render.b4b794c6.jpg"
+  },
+  {
+    "revision": "baf87495c4024d41921e97e06199909a",
+    "url": "/ranaldsgift/static/media/render.baf87495.jpg"
+  },
+  {
+    "revision": "c572a4832b35c4461d215c21b66aaaf7",
+    "url": "/ranaldsgift/static/media/render.c572a483.jpg"
+  },
+  {
+    "revision": "ff9916927d6e4c320402b856e27d01be",
+    "url": "/ranaldsgift/static/media/render.ff991692.jpg"
   },
   {
     "revision": "fcfebbe14ce33d1eaa7311048a700b7a",
