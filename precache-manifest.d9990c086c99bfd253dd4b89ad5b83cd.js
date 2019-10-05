@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "003661fd72035b41d8170cdb6ce99cb9",
+    "revision": "a5cad39fe1d0e9d771b0e5378a570b0a",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.4d672712.chunk.css"
   },
   {
-    "revision": "92ffc7c8818598f537c3",
-    "url": "/static/css/main.909329e4.chunk.css"
+    "revision": "7015c5c1f65ec5728c01",
+    "url": "/static/css/main.fc1435c3.chunk.css"
   },
   {
     "revision": "8a611d5bb2783e1f8038",
     "url": "/static/js/2.2cb6b3f6.chunk.js"
   },
   {
-    "revision": "92ffc7c8818598f537c3",
-    "url": "/static/js/main.bc9e773b.chunk.js"
+    "revision": "7015c5c1f65ec5728c01",
+    "url": "/static/js/main.2cbc4fd0.chunk.js"
   },
   {
     "revision": "c4b115ee5e6f15aa61bd",
@@ -220,6 +220,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bw_1h_mace.77053455.png"
   },
   {
+    "revision": "86d94b99e192ec41c11fb8c0802df416",
+    "url": "/static/media/bw_crowbill.86d94b99.png"
+  },
+  {
     "revision": "730b3ca39d197aea7e8a21ea4f779c55",
     "url": "/static/media/bw_dagger.730b3ca3.png"
   },
@@ -288,6 +292,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dr_dual_wield_axes.b7537e3b.png"
   },
   {
+    "revision": "b657e5ba78d92d8d2b2aadb6d729b8eb",
+    "url": "/static/media/dr_hammers.b657e5ba.png"
+  },
+  {
     "revision": "779ad4c089cab064b8ee01da2dea04b8",
     "url": "/static/media/dr_handgun.779ad4c0.png"
   },
@@ -304,12 +312,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dr_shield_hammer.47c15e10.png"
   },
   {
+    "revision": "3d0e12c72dba79bcc1c867fa04faf485",
+    "url": "/static/media/dr_throwing_axes.3d0e12c7.png"
+  },
+  {
     "revision": "4e0ca63ad75c6c8007405c74aaee1e94",
     "url": "/static/media/es_halberd.4e0ca63a.png"
   },
   {
     "revision": "4ef67e730566c4110eb865151389a926",
     "url": "/static/media/es_handgun.4ef67e73.png"
+  },
+  {
+    "revision": "8096e89d4783e37796f7d1ddb006906c",
+    "url": "/static/media/es_mace_and_sword.8096e89d.png"
   },
   {
     "revision": "6d03572397aebae30584990945107c07",
@@ -1736,12 +1752,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/we_dual_wield_swords.08f985c0.png"
   },
   {
+    "revision": "76286c7fd8ebf81473fb8044608dd1ef",
+    "url": "/static/media/we_spear_and_shield.76286c7f.png"
+  },
+  {
     "revision": "cfd5ddca0cb6d030b57b9dde7ee896b4",
     "url": "/static/media/wh_1h_axe.cfd5ddca.png"
   },
   {
     "revision": "2b2af48971baa61c63fc33d5056e5d4a",
     "url": "/static/media/wh_2h_sword.2b2af489.png"
+  },
+  {
+    "revision": "5e5b6fe0afe0a7a6d346ffcc52faa93f",
+    "url": "/static/media/wh_axe_and_falchion.5e5b6fe0.png"
   },
   {
     "revision": "c180675ecb0439ecbce97e45d5a0a15d",
