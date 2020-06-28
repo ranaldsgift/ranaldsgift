@@ -209,7 +209,7 @@ export const heroesData = [
             },
             {                
                 "name": "Maim",
-                "description": "Ranged attacks deal 30% more damage to injured enemies…",
+                "description": "Ranged attacks deal 30% more damage to enemies below 50% health.",
                 "modifier": {
                     "type": "range_power",
                     "value": 0.3,
@@ -272,7 +272,7 @@ export const heroesData = [
             },
             {                
                 "name": "Burst of Enthusiasm",
-                "description": "Scoring a ranged headshot grants 2 temporary health. Critical headshots doubles the effect."
+                "description": "Scoring a ranged headshot grants 2 temporary health. Critical headshots double the effect. Effect can only trigger once per attack."
             },
             {                
                 "name": "Shot Crafter",
@@ -464,7 +464,7 @@ export const heroesData = [
             },
             {                
                 "name": "Counter-Punch",
-                "description": "Blocking an attack removes the stamina cost of pushing for 2 seconds."
+                "description": "Blocking an attack removes the stamina cost of pushing for 1 second."
             },
             {                
                 "name": "That’s Bloody Teamwork!",
@@ -487,7 +487,7 @@ export const heroesData = [
             },
             {                
                 "name": "Trample",
-                "description": "Enemies hit by Valiant Charge takes 20% increased damage for 5 seconds. Does not stack with similar effects.",
+                "description": "Enemies hit by Valiant Charge takes 20% increased damage for 15 seconds. Does not stack with similar effects.",
                 "modifier": {
                     "type": "enemy_damage",
                     "value": 0.2,
@@ -1375,7 +1375,7 @@ export const heroesData = [
             },
             {                
                 "name": "Blood Shot",
-                "description": "After killing an enemy with a melee attack Kerillian fires an additional arrow with her next ranged attack made within 2 seconds."
+                "description": "After killing an enemy with a melee attack Kerillian fires an additional arrow with her next ranged attack made within 10 seconds."
             },
             {                
                 "name": "Serrated Shots",
@@ -1446,7 +1446,7 @@ export const heroesData = [
             },
             {                
                 "name": "Kurnous’ Reward",
-                "description": "Killing a special with Trueshot Volley restores 30% ammunition."
+                "description": "Killing a special or elite enemy with Trueshot Volley restores 30% ammunition."
             }
         ]
     },
@@ -1519,7 +1519,7 @@ export const heroesData = [
             },
             {                
                 "name": "Asrai Grace",
-                "description": "Reduces the cooldown of Dash by 15% for each nearby ally.",
+                "description": "Increased the cooldown regeneration rate of Dash by 15% for each nearby ally.",
                 "modifier": {
                     "type": "cooldown_reduction",
                     "value": 0.15,
@@ -1560,7 +1560,7 @@ export const heroesData = [
             },
             {                
                 "name": "Wraith-Walk",
-                "description": "Kerillians dodges can now pass through enemies."
+                "description": "Kerillian's dodges can now pass through enemies."
             },
             {                
                 "name": "Heart of Oak",
@@ -2280,7 +2280,7 @@ export const heroesData = [
             },
             {                
                 "name": "Just Reward",
-                "description": "Killing 20 enemies resets the cooldown of Locked and Loaded. No longer regenerates passively."
+                "description": "Ranged critical hits reduces the cooldown of Locked and Loaded by 15%. Can only trigger once every 10 seconds."
             },
             {                
                 "name": "Double-shotted",
@@ -2441,7 +2441,7 @@ export const heroesData = [
             },
             {                
                 "name": "Faith’s Flurry",
-                "description": "Attacks during Holy Fervour increases power by 2% for 5 seconds. Stacks up to 6 times.",
+                "description": "Attacks during Holy Fervour increases power by 2% for 5 seconds. Stacks up to 10 times.",
                 "modifier": {
                     "type": "power",
                     "value": 0.05,
@@ -2736,7 +2736,7 @@ export const heroesData = [
             },
             {                
                 "name": "Immersive Immolation",
-                "description": "Hitting 4 or more enemies with one attack grants 20% increased attack speed for 5 seconds."
+                "description": "Hitting 4 or more enemies with one attack grants 15% increased attack speed for 5 seconds."
             },
             {                
                 "name": "Volans' Quickening",
@@ -2844,7 +2844,7 @@ export const heroesData = [
             },
             {                
                 "name": "Fleetflame",
-                "description": "Critical hits increases movement speed by 5% for 5 seconds. Stacks up to 3 times."
+                "description": "Critical hits increases movement speed by 5% for 10 seconds. Stacks up to 3 times."
             },
             {                
                 "name": "Exhaust",
