@@ -4,17 +4,17 @@ export const traitsData =
             {
                 "id": "1",
                 "name":"Heroic Intervention",
-                "description":"Assisting an ally under attack grants both players a damage shield for a short time"
+                "description":"Assisting an ally under attack restores 15 temporary health for both players"
             },
             {
                 "id": "2",
                 "name":"Off Balance",
-                "description":"Blocking an attack increases the amount of damage the attacker takes by 50% for 3 seconds"
+                "description":"Blocking an attack increases the amount of damage the attacker takes by 20% for 5 seconds"
             },
             {
                 "id": "3",
                 "name":"Opportunist",
-                "description":"Increases push strength by 50% against an attacking enemy"
+                "description":"Increases push strength by 50% when used against an attacking enemy"
             },
             {
                 "id": "4",
@@ -24,7 +24,7 @@ export const traitsData =
             {
                 "id": "5",
                 "name":"Resourceful Combatant",
-                "description":"Melee critical hits reduce the remaining cooldown of your career skill by 2%"
+                "description":"Melee critical hits reduce the cooldown of your Career Skill by 5%. This effect can only trigger every 4 seconds"
             },
             {
                 "id": "6",
@@ -41,12 +41,12 @@ export const traitsData =
             {
                 "id": "2",
                 "name":"Conservative Shooter",
-                "description":"Headshots replenish 1 ammo"
+                "description":"Headshots replenish 1 ammunition"
             },
             {
                 "id": "3",
                 "name":"Heat Sink",
-                "description":"Reduce overheat by 4 on critical hits",
+                "description":"Critical hits refund the overcharge cost of the attack",
                 "heat":"yes"
             },
             {
@@ -67,12 +67,12 @@ export const traitsData =
             {
                 "id": "7",
                 "name":"Scrounger",
-                "description":"Critical hits restore 2 ammo"
+                "description":"Critical hits restore 5% of maximum ammunition. Can trigger once per attack"
             },
             {
                 "id": "8",
                 "name":"Thermal Equalizer",
-                "description":"Weapon generates 20% less heat​",
+                "description":"Weapon generates 20% less overheat​",
                 "heat":"yes"
             }
         ],
@@ -80,7 +80,7 @@ export const traitsData =
             {
                 "id": "1",
                 "name":"Barkskin",
-                "description":"Taking damages reduces the damage you take from subsequent sources by 40% for 2 seconds. This effect can only trigger every 2 seconds."
+                "description":"Taking damages reduces the damage you take from subsequent sources by 40% for 2 seconds. This effect can only trigger every 2 seconds"
             },
             {
                 "id": "2",
