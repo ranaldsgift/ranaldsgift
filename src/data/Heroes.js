@@ -82,7 +82,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -209,7 +209,7 @@ export const heroesData = [
             },
             {                
                 "name": "Maim",
-                "description": "Ranged attacks deal 30% more damage to injured enemies…",
+                "description": "Ranged attacks deal 30% more damage to enemies below 50% health.",
                 "modifier": {
                     "type": "range_power",
                     "value": 0.3,
@@ -245,7 +245,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -272,7 +272,7 @@ export const heroesData = [
             },
             {                
                 "name": "Burst of Enthusiasm",
-                "description": "Scoring a ranged headshot grants 2 temporary health. Critical headshots doubles the effect."
+                "description": "Scoring a ranged headshot grants 2 temporary health. Critical headshots double the effect. Effect can only trigger once per attack."
             },
             {                
                 "name": "Shot Crafter",
@@ -417,7 +417,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -464,7 +464,7 @@ export const heroesData = [
             },
             {                
                 "name": "Counter-Punch",
-                "description": "Blocking an attack removes the stamina cost of pushing for 2 seconds."
+                "description": "Blocking an attack removes the stamina cost of pushing for 1 second."
             },
             {                
                 "name": "That’s Bloody Teamwork!",
@@ -487,7 +487,7 @@ export const heroesData = [
             },
             {                
                 "name": "Trample",
-                "description": "Enemies hit by Valiant Charge takes 20% increased damage for 5 seconds. Does not stack with similar effects.",
+                "description": "Enemies hit by Valiant Charge takes 20% increased damage for 15 seconds. Does not stack with similar effects.",
                 "modifier": {
                     "type": "enemy_damage",
                     "value": 0.2,
@@ -531,7 +531,7 @@ export const heroesData = [
         "perks": [
             {
                 "name": "Knight's Challenge",
-                "description": "Deals 10% more damage to the first enemy hit.",
+                "description": "Deals 25% more damage to the first enemy hit (incorrect in-game).",
                 "modifier": {
                     "type": "stamina",
                     "value": 2,
@@ -540,7 +540,7 @@ export const heroesData = [
             },            
             {
                 "name": "Thirst for Glory ",
-                "description": "Increases movement speed by 5%.",
+                "description": "Increases movement speed by 10% (incorrect in-game).",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": 0.1,
@@ -590,7 +590,7 @@ export const heroesData = [
             },
             {                
                 "name": "Virtue of Heroism",
-                "description": "Power level of heavy attacks increased by 25%.",
+                "description": "Damage (and not power level) of heavy attacks increased by 25%.",
                 "modifier": {
                     "type": "attack_speed",
                     "value": 0.15,
@@ -607,7 +607,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -626,7 +626,7 @@ export const heroesData = [
             },
             {                
                 "name": "Virtue of Purity ",
-                "description": "Increases the potency of the blessings rewarded upon completing a Quest by 50%.",
+                "description": "Increases the potency of the blessings rewarded upon completing a Quest by 50% (doubles the effect of regeneration).",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": 0.05,
@@ -780,7 +780,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
                 "name": "Share and Share Alike",
@@ -805,7 +805,7 @@ export const heroesData = [
             },
             {                
                 "name": "Exuberance",
-                "description": "Headshots reduces damage taken by 30% for 5 seconds.",
+                "description": "Headshots reduce damage taken by 30% for 5 seconds.",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": 0.3,
@@ -900,7 +900,7 @@ export const heroesData = [
             },
             {                
                 "name": "Drakki Wrath",
-                "description": "Increases Drakefire attack power by 30%. Increases overheat generated by 30%."
+                "description": "Increases attack power (only damage) of Drakefire Weapons by 30%. Increases overheat generated by 30%."
             },
             {                
                 "name": "Blood of Grimnir",
@@ -932,7 +932,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
                 "name": "Ironbreaker’s Resolve",
@@ -988,7 +988,7 @@ export const heroesData = [
             },
             {                
                 "name": "Booming Taunt",
-                "description": "Increases the radius of Impenetrables taunt by 15%. Increases the duration of Impenetrable to 15 seconds.",
+                "description": "Increases the radius of Impenetrables taunt by 50% (incorrect in-game). Increases the duration of Impenetrable to 15 seconds.",
                 "modifier": {
                     "type": "cooldown_duration",
                     "value": 15,
@@ -1088,7 +1088,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
                 "name": "Impatience",
@@ -1237,7 +1237,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -1375,7 +1375,7 @@ export const heroesData = [
             },
             {                
                 "name": "Blood Shot",
-                "description": "After killing an enemy with a melee attack Kerillian fires an additional arrow with her next ranged attack made within 2 seconds."
+                "description": "After killing an enemy with a melee attack Kerillian fires an additional arrow with her next ranged attack made within 10 seconds."
             },
             {                
                 "name": "Serrated Shots",
@@ -1400,7 +1400,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
                 "name": "Isha’s Embrace",
@@ -1425,7 +1425,7 @@ export const heroesData = [
             },
             {                
                 "name": "Ricochet",
-                "description": "Kerillians arrows now richochet, bouncing up to 3 times or until it hits an enemy."
+                "description": "Kerillian's arrows now richochet, bouncing up to 3 times or until it hits an enemy."
             },
             {                
                 "name": "Asrai Focus",
@@ -1446,7 +1446,7 @@ export const heroesData = [
             },
             {                
                 "name": "Kurnous’ Reward",
-                "description": "Killing a special with Trueshot Volley restores 30% ammunition."
+                "description": "Killing a special or elite enemy with Trueshot Volley restores 30% ammunition."
             }
         ]
     },
@@ -1501,7 +1501,7 @@ export const heroesData = [
             },
             {                
                 "name": "Focused Spirit",
-                "description": "After not taking damage for 15 seconds, increases Kerillians power by 10%. Reset upon taking damage.",
+                "description": "After not taking damage for 10 seconds, increases Kerillian's power by 15%. Reset upon taking damage.",
                 "modifier": {
                     "type": "power",
                     "value": 0.1,
@@ -1519,7 +1519,7 @@ export const heroesData = [
             },
             {                
                 "name": "Asrai Grace",
-                "description": "Reduces the cooldown of Dash by 15% for each nearby ally.",
+                "description": "Increased the cooldown regeneration rate of Dash by 15% for each nearby ally.",
                 "modifier": {
                     "type": "cooldown_reduction",
                     "value": 0.15,
@@ -1537,7 +1537,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
                 "name": "Willow Stance",
@@ -1560,7 +1560,7 @@ export const heroesData = [
             },
             {                
                 "name": "Wraith-Walk",
-                "description": "Kerillians dodges can now pass through enemies."
+                "description": "Kerillian's dodges can now pass through enemies."
             },
             {                
                 "name": "Heart of Oak",
@@ -1678,7 +1678,7 @@ export const heroesData = [
             },
             {                
                 "name": "Exquisite Huntress",
-                "description": "Headshots increases headshot damage bonus by 10% for 5 seconds. Stacks up to 10 times.",
+                "description": "Headshots increase headshot damage bonus by 10% for 5 seconds. Stacks up to 10 times.",
                 "modifier": {
                     "type": "headshot_damage",
                     "value": 0.1,
@@ -1696,7 +1696,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -1722,7 +1722,7 @@ export const heroesData = [
             },
             {                
                 "name": "Blood Drinker",
-                "description": "Critical hits reduces damage taken by 20% for 5 seconds.",
+                "description": "Critical hits reduce damage taken by 20% for 5 seconds.",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": 0.2,
@@ -1731,7 +1731,7 @@ export const heroesData = [
             },
             {                
                 "name": "Spring-Heeled Assassin",
-                "description": "Critical hits increases movement speed by 20% for 5 seconds.",
+                "description": "Critical hits increase movement speed by 20% for 5 seconds.",
                 "modifier": {
                     "type": "move_speed",
                     "value": 0.2,
@@ -1858,7 +1858,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -2052,7 +2052,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -2231,7 +2231,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -2257,7 +2257,7 @@ export const heroesData = [
             },
             {                
                 "name": "Hunter’s Pursuit",
-                "description": "Ranged critical hits increases movement speed by 20% for 10 seconds.",
+                "description": "Ranged critical hits increase movement speed by 20% for 10 seconds.",
                 "modifier": {
                     "type": "move_speed",
                     "value": 0.2,
@@ -2280,11 +2280,11 @@ export const heroesData = [
             },
             {                
                 "name": "Just Reward",
-                "description": "Killing 20 enemies resets the cooldown of Locked and Loaded. No longer regenerates passively."
+                "description": "Ranged critical hits reduce the cooldown of Locked and Loaded by 15%. Can only trigger once every 10 seconds."
             },
             {                
                 "name": "Double-shotted",
-                "description": "Modifies Victor’s sidearm to fire two powerful bullets in a straight line. Scoring a headshot with this attack reduces the cooldown of Locked and Loaded by 40%.",
+                "description": "Modifies Victor’s sidearm to fire two powerful bullets in a straight line. Scoring a headshot with this attack reduces the cooldown of Locked and Loaded by 40 (Effect triggers twice, up to 80%).",
                 "modifier": {
                     "type": "cooldown_reduction",
                     "value": 1,
@@ -2441,7 +2441,7 @@ export const heroesData = [
             },
             {                
                 "name": "Faith’s Flurry",
-                "description": "Attacks during Holy Fervour increases power by 2% for 5 seconds. Stacks up to 6 times.",
+                "description": "Attacks during Holy Fervour increases power by 2% for 5 seconds. Stacks up to 10 times.",
                 "modifier": {
                     "type": "power",
                     "value": 0.05,
@@ -2551,7 +2551,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
@@ -2692,7 +2692,7 @@ export const heroesData = [
             },
             {                
                 "name": "Volcanic Force",
-                "description": "Fully charging spells increases it’s power by 50%."
+                "description": "Fully charging spells increases its power by 50%."
             },
             {                
                 "name": "Famished Flames",
@@ -2712,7 +2712,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
                 "name": "Unusually Calm",
@@ -2728,7 +2728,7 @@ export const heroesData = [
             },
             {                
                 "name": "Soot Shield",
-                "description": "Igniting an enemy reduces damage taken by 10% for 5 seconds. Stacks up to 3 times."
+                "description": "Igniting an enemy (dead or alive) reduces damage taken by 10% for 5 seconds. Stacks up to 3 times."
             },
             {                
                 "name": "Fires from Ash",
@@ -2736,7 +2736,7 @@ export const heroesData = [
             },
             {                
                 "name": "Immersive Immolation",
-                "description": "Hitting 4 or more enemies with one attack grants 20% increased attack speed for 5 seconds."
+                "description": "Hitting 4 or more enemies with one attack grants 15% increased attack speed for 5 seconds (incorrect in-game)."
             },
             {                
                 "name": "Volans' Quickening",
@@ -2800,7 +2800,7 @@ export const heroesData = [
             },
             {                
                 "name": "Ride the Fire Wind",
-                "description": "Increases power level by 1% every second up to a maximum of 20 stacks. Upon reaching max the effect diminishes, then starts over."
+                "description": "Increases ranged power level by 1% every second up to a maximum of 20 stacks. Upon reaching max the effect diminishes, then starts over."
             },
             {                
                 "name": "Martial Study",
@@ -2820,7 +2820,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
                 "name": "Deathly Dissipation",
@@ -2836,7 +2836,7 @@ export const heroesData = [
             },
             {                
                 "name": "Soul Siphon",
-                "description": "Reduces damage taken by 30% for 10 seconds after killing a special or elite enemy."
+                "description": "Reduces damage taken by 10% for 10 seconds after killing a special or elite enemy. Stacks up to 3 times. \n\n(incorrect in-game)"
             },
             {                
                 "name": "The Volans Doctrine",
@@ -2844,7 +2844,7 @@ export const heroesData = [
             },
             {                
                 "name": "Fleetflame",
-                "description": "Critical hits increases movement speed by 5% for 5 seconds. Stacks up to 3 times."
+                "description": "Critical hits increase movement speed by 5% for 10 seconds. Stacks up to 3 times."
             },
             {                
                 "name": "Exhaust",
@@ -2931,7 +2931,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
                 "name": "Dissipate",
@@ -2959,7 +2959,7 @@ export const heroesData = [
             },
             {                
                 "name": "Flame Wave",
-                "description": "Increases the radius of Living Bomb explosion by 50%."
+                "description": "Increases the radius of Living Bomb's explosion by 50%."
             },
             {                
                 "name": "Fuel for the Fire",
@@ -3062,7 +3062,7 @@ export const heroesData = [
             },
             {                
                 "name": "Enhanced Power",
-                "description": "Increases total Power Level by 7%. This is calculated before other buffs are applied.",
+                "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied.",
                 "modifier": {
                     "type": "power",
                     "value": 0.07,
