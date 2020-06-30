@@ -85,11 +85,11 @@ export const traitsData =
             {
                 "id": "2",
                 "name":"Hand of Shallya",
-                "description":"Healing an ally with a medpack also heals you for 35% of your missing health."
+                "description":"Healing an ally with medical supplies also heals you for 50% of your missing health."
             },
             {
                 "id": "3",
-                "name":"Healers Touch",
+                "name":"Healer's Touch",
                 "description":"25% chance to not consume healing item on use."
             },
             {
@@ -99,8 +99,8 @@ export const traitsData =
             },
             {
                 "id": "5",
-                "name":"Shallya's Boon",
-                "description":"Increases effect of healing on you by 30%​."
+                "name":"Boon of Shallya",
+                "description":"Increases effectiveness of healing on you by 30%."
             }
         ],
         "charm": [
@@ -122,7 +122,7 @@ export const traitsData =
             {
                 "id": "4",
                 "name":"Proxy",
-                "description":"Consuming a potion spread the effect to the nearest ally​."
+                "description":"Consuming a potion spreads the effect to the nearest ally​."
             }
         ],
         "trinket": [
