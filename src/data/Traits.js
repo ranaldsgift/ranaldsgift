@@ -107,7 +107,7 @@ export const traitsData =
             {
                 "id": "1",
                 "name":"Concoction",
-                "description":"Drinking a potion grants the effects of all other potions. Duration reduced by 50%."
+                "description":"Drinking a potion grants the effect of all other potions. Duration reduced by 50%."
             },
             {
                 "id": "2",
