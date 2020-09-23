@@ -18,7 +18,7 @@ class HeroDetails extends Component {
             <div className="hero-attributes">
               <p>Health</p>
               <p className={`health-value value-${hero.health} health-value-tier-c`}>{hero.health} HP</p>
-              <p>Skill Cooldown</p>
+              <p class="skill-cooldown-label">Skill Cooldown</p>
               <p className={`skill-cooldown-value value-${hero.skill.cooldown} skill-cooldown-tier-a`}>{hero.skill.cooldown} seconds</p>
             </div>
           </div>
