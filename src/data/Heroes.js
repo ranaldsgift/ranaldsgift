@@ -39,15 +39,15 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Drillmaster",
-                "description": "Damaging multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Mercenary’s Pride",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy."
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Captain’s Command",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds.",
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds.",
             },
             {                
                 "name": "The More the Merrier!",
@@ -135,11 +135,11 @@ export const heroesData = [
             },
             {                
                 "name": "Walk it Off",
-                "description": "Morale Boost also reduces damage taken by effected allies by 40% for 10 seconds."
+                "description": "Morale Boost also reduces damage taken by affected allies by 25% for 10 seconds."
             },
             {                
                 "name": "Ready for Action",
-                "description": "Reduces cooldown of Morale Boost by 45%. No longer grants temporary health.",
+                "description": "Reduces cooldown of Morale Boost by 20%.",
                 "notes": "",
                 "modifier": {
                     "type": "cooldown_reduction",
@@ -197,7 +197,7 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Taste of Victory",
-                "description": "Staggering an enemy with a melee attack grants temporary health. Health gained is based on the strength of the stagger."
+                "description": "Staggering enemies with a melee attack grants temporary health. Health gained based stagger strength."
             },
             {                
                 "name": "Huntsman’s Tally",
@@ -205,11 +205,11 @@ export const heroesData = [
             },
             {                
                 "name": "Taal’s Bounty",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
-                "name": "Maim",
-                "description": "Ranged attacks deal 30% more damage to enemies below 50% health.",
+                "name": "Keep it Coming",
+                "description": "Every third ranged hit causes the next shot to consume no ammo.",
                 "modifier": {
                     "type": "range_power",
                     "value": 0.3,
@@ -284,8 +284,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Master Huntsman",
-                "description": "Reduces damage taken by 3%. Increases to 30% after the party kills a monster. Lasts until end of mission or death.",
+                "name": "Thick Hide",
+                "description": "Killing a Special or Elite enemy reduces damage taken by 10%. Stacks 4 times. Taking a hit removes a stack.",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": [0.03,0.3],
@@ -370,15 +370,15 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Back Off, Ugly!",
-                "description": "Staggering an enemy with a melee attack grants temporary health. Health gained is based on the strength of the stagger."
+                "description": "Staggering enemies with a melee attack grants temporary health. Health gained based stagger strength."
             },
             {                
                 "name": "Bloody Unstoppable!",
-                "description": "Striking multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Templar’s Rally",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Staggering Force",
@@ -426,7 +426,7 @@ export const heroesData = [
             },
             {                
                 "name": "Rock of the Reikland",
-                "description": "Protective Presence also grants 20% block cost reduction.",
+                "description": "Protective Presence's size is doubled and also grants 20% block cost reduction.",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": 0.2,
@@ -435,8 +435,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Defensive Formation",
-                "description": "Increases damage reduction from Protective Presence by 5%.",
+                "name": "That's Blood Teamwork!",
+                "description": "Increases damage reduction from Protective Presence by 5.0% for each nearby ally.",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": 0.05,
@@ -445,8 +445,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Taal’s Champion",
-                "description": "Increases power level by 10%. Removes damage reduction and no longer effects allies.",
+                "name": "Comrades in Arms",
+                "description": "Kruber gains 10.0% increased power. The closest ally to Kruber gains 50.0% damage reduction and 10.0% increased power. Passive aura from Protective Presence no longer affects allies.",
                 "modifier": {
                     "type": "power",
                     "value": 0.1,
@@ -455,7 +455,7 @@ export const heroesData = [
             },
             {                
                 "name": "It’s Hero Time",
-                "description": "Increases movement speed by 30% when an ally is incapcitated.",
+                "description": "Resets the cooldown on Valiant Charge when an ally is incapacitated",
                 "modifier": {
                     "type": "move_speed",
                     "value": 0.3,
@@ -467,8 +467,8 @@ export const heroesData = [
                 "description": "Blocking an attack removes the stamina cost of pushing for 1 second."
             },
             {                
-                "name": "That’s Bloody Teamwork!",
-                "description": "Reduces damage taken by 5% for each nearby ally.",
+                "name": "Inspiring Blow",
+                "description": "Staggering an Elite enemy accelerates the cooldown of nearby allies by 100.0% for 0.5 seconds.",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": 0.05,
@@ -486,8 +486,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Trample",
-                "description": "Enemies hit by Valiant Charge takes 20% increased damage for 15 seconds. Does not stack with similar effects.",
+                "name": "Battering Ram",
+                "description": "Doubles the width of Valiant Charge and allows Kruber to charge through great foes.",
                 "modifier": {
                     "type": "enemy_damage",
                     "value": 0.2,
@@ -560,15 +560,15 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Lady's Generosity ",
-                "description": "Staggering an enemy with a melee attack grants temporary health. Health gained is based on the strength of the stagger. "
+                "description": "Staggering enemies with a melee attack grants temporary health. Health gained based stagger strength."
             },
             {                
                 "name": "Lady's Wrath ",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy. "
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Gift of the Grail",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Virtue of the Ideal ",
@@ -738,15 +738,15 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Roots Running Deep",
-                "description": "Staggering an enemy with a melee attack grants temporary health. Health gained is based on the strength of the stagger."
+                "description": "Staggering enemies with a melee attack grants temporary health. Health gained based stagger strength."
             },
             {                
                 "name": "Ranger Reaper",
-                "description": "Striking multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Hardy Heart",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Last Resort",
@@ -783,8 +783,8 @@ export const heroesData = [
                 "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
-                "name": "Share and Share Alike",
-                "description": "When an ally picks up a Survivalist cache Bardin recieves 10% ammunition."
+                "name": "Drunken Brawler",
+                "description": "Killing a Special grants a 50.0% chance to drop a bottle of ale. Ale grants 3.0% attack speed and reduces damage taken by 4.0% for 5 minutes when consumed. Can stack 3 times."
             },
             {                
                 "name": "Grugni’s Cunning",
@@ -805,7 +805,7 @@ export const heroesData = [
             },
             {                
                 "name": "Exuberance",
-                "description": "Headshots reduce damage taken by 30% for 5 seconds.",
+                "description": "Bardin takes 30.0% less damage from behind. Whenever he scores a headshot, this bonus applies to all damage taken for 7 seconds.",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": 0.3,
@@ -814,7 +814,7 @@ export const heroesData = [
             },
             {                
                 "name": "Firing Fury",
-                "description": "Hitting 2 enemies with one ranged attack increases speed of Bardins next reload by 35%.",
+                "description": "Hitting 2 enemies with one ranged attack increases speed of Bardins next reload by 35.0%.",
                 "modifier": {
                     "type": "reload_speed",
                     "value": 0.35,
@@ -822,8 +822,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Ranger’s Ambush",
-                "description": "Increases the duration of Disengage stealth to 15 seconds.",
+                "name": "Exhilarating Vapours",
+                "description": "Allies within Bardin's smoke gain 8.0% attack speed. They also gain 3 temporary health per second.",
                 "modifier": {
                     "type": "cooldown_duration",
                     "value": 15,
@@ -888,23 +888,23 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Rock-Breaker",
-                "description": "Staggering an enemy with a melee attack grants temporary health. Health gained is based on the strength of the stagger."
+                "description": "Staggering enemies with a melee attack grants temporary health. Health gained based stagger strength."
             },
             {                
                 "name": "Grudge-Borne",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy."
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Hearthguard",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
-                "name": "Drakki Wrath",
-                "description": "Increases attack power (only damage) of Drakefire Weapons by 30%. Increases overheat generated by 30%."
+                "name": "Under Pressure",
+                "description": "Drake Fire damage increases from -80.0% to 120.0% and ranged attack speed reduces from 100.0% to -50.0% depending on overcharge. Removes overcharge slowdown."
             },
             {                
                 "name": "Blood of Grimnir",
-                "description": "Each nearby ally increases power by 5%.",
+                "description": "Each nearby ally increases power by 5.0%.",
                 "modifier": {
                     "type": "power",
                     "value": 0.05,
@@ -913,8 +913,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Crushing Counter-Blow",
-                "description": "Blocking an attack increases the power of Bardins next attack by 5%. Stacks up to 5 times.",
+                "name": "Rune-Etched Shield",
+                "description": "Blocking an attack increases Bardin's power (and that of nearby allies) by 2.0% for 10 seconds. Stacks 5 times.",
                 "modifier": {
                     "type": "power",
                     "value": 0.05,
@@ -935,8 +935,8 @@ export const heroesData = [
                 "description": "Increases total Power Level by 7.5% (incorrect in-game). This is calculated before other buffs are applied."
             },
             {                
-                "name": "Ironbreaker’s Resolve",
-                "description": "Increases stamina regen by 50% when Gromril Armour is active.",
+                "name": "Vengeance",
+                "description": "Periodically generate stacks of Rising Anger every 7 seconds while Gromril is active. When Gromril is lost, gain 8.0% attack speed per stack of Rising Anger.",
                 "modifier": {
                     "type": "stamina_regen",
                     "value": 0.5,
@@ -949,7 +949,7 @@ export const heroesData = [
             },
             {                
                 "name": "Tunnel Fighter",
-                "description": "Reduces the cooldown of Gromril Armour to 13 seconds.",
+                "description": "Reduces the cooldown of Gromril Armour to 10 seconds.",
                 "modifier": {
                     "type": "cooldown_reduction",
                     "value": 7,
@@ -958,11 +958,11 @@ export const heroesData = [
             },
             {                
                 "name": "Dawi Defiance",
-                "description": "When Bardins guard is broken there is a 50% chance to instantly restore all stamina."
+                "description": "When Bardins guard is broken there is a 50.0% chance to instantly restore all stamina."
             },
             {                
                 "name": "The Rolling Mountain",
-                "description": "Killing enemies with melee attacks while on full stamina reduces the cooldown of Impenetrable by 2%.",
+                "description": "Killing enemies with melee attacks while on full stamina reduces the cooldown of Impenetrable by 2.0%.",
                 "modifier": {
                     "type": "cooldown_reduction",
                     "value": 0.02,
@@ -971,7 +971,7 @@ export const heroesData = [
             },
             {                
                 "name": "Miner’s Rythm",
-                "description": "After landing a charged attack Bardin recovers stamina 40% faster for 2 seconds.",
+                "description": "After landing a charged attack Bardin recovers stamina 40.0% faster for 2 seconds.",
                 "modifier": {
                     "type": "stamina_regen",
                     "value": 0.4,
@@ -980,7 +980,7 @@ export const heroesData = [
             },
             {                
                 "name": "Drengbarazi Oath",
-                "description": "Impenetrable increases power of nearby allies by 20% for 10 seconds."
+                "description": "Impenetrable increases power of nearby allies by 20.0% for 10 seconds."
             },
             {                
                 "name": "Oi! Wazzok!",
@@ -988,7 +988,7 @@ export const heroesData = [
             },
             {                
                 "name": "Booming Taunt",
-                "description": "Increases the radius of Impenetrables taunt by 50% (incorrect in-game). Increases the duration of Impenetrable to 15 seconds.",
+                "description": "Increases the radius of Impenetrables taunt by 15.0%. Increases the duration of Impenetrable to 15 seconds.",
                 "modifier": {
                     "type": "cooldown_duration",
                     "value": 15,
@@ -1041,19 +1041,19 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Doomseeker",
-                "description": "Striking multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Slayer’s Fury",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy."
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Infectious Fortitude",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "A Thousand Cuts",
-                "description": "Wielding one-handed weapons in both slots increases attack speed by 10%. Dual weapons counts as one-handed.",
+                "description": "Wielding one-handed weapons in both slots increases attack speed by 10%. Dual weapons count as one-handed.",
                 "modifier": {
                     "type": "attack_speed",
                     "value": 0.1,
@@ -1198,7 +1198,7 @@ export const heroesData = [
             },
             {                
                 "name": "Templar’s Rally",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Staggering Force",
@@ -1363,15 +1363,15 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Weavebond",
-                "description": "Melee critical strikes and headshots grant 2 temporary health. Critical headshots restores twice as much."
+                "description": "Melee critical strikes and headshots restore 2 temporary health. Critical headshots restores twice as much."
             },
             {                
                 "name": "Dryad’s Thirst",
-                "description": "Striking multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Ariel’s Boon",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Blood Shot",
@@ -1408,7 +1408,7 @@ export const heroesData = [
             },
             {                
                 "name": "Spirit Arrows",
-                "description": "Amaranthe reduces the cooldown of Trueflight Volley by 5% every tick. No longer restores health."
+                "description": "Amaranthe reduces the cooldown of Trueflight Volley by 5.0% every tick. No longer restores health."
             },
             {                
                 "name": "Rejuvenating Locus",
@@ -1416,7 +1416,7 @@ export const heroesData = [
             },
             {                
                 "name": "Fervent Huntress",
-                "description": "Killing a special increases movement speed by 15% for 10 seconds.",
+                "description": "Killing a special increases movement speed by 15.0% for 10 seconds.",
                 "modifier": {
                     "type": "move_speed",
                     "value": 0.15,
@@ -1438,7 +1438,7 @@ export const heroesData = [
             },
             {                
                 "name": "Piercing Shot",
-                "description": "Trueshot Volley fires one piercing shot dealing heavy damage. Headshot refunds 100% cooldown."
+                "description": "Trueshot Volley fires one piercing shot dealing heavy damage. Headshot refunds 100.0% cooldown."
             },
             {                
                 "name": "Loaded Bow",
@@ -1446,7 +1446,7 @@ export const heroesData = [
             },
             {                
                 "name": "Kurnous’ Reward",
-                "description": "Killing a special or elite enemy with Trueshot Volley restores 30% ammunition."
+                "description": "Killing a special or elite enemy with Trueshot Volley restores 30.0% ammunition."
             }
         ]
     },
@@ -1483,25 +1483,25 @@ export const heroesData = [
             },
             {
                 "name": "Ariel's Benison",
-                "description": "Revive can't be interrupted by damaging attacks."
+                "description": "Increase Kerillian's revive speed by 50%. When Kerillian revives allies, she heals them for 20 health."
             }
         ],
         "talents": [
             {                
                 "name": "Spirit Echo",
-                "description": "Striking multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Martial Blessing",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy."
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Eternal Blossom",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Focused Spirit",
-                "description": "After not taking damage for 10 seconds, increases Kerillian's power by 15%. Reset upon taking damage.",
+                "description": "After not taking damage for 10 seconds, increases Kerillian's power by 15.0%. Reset upon taking damage.",
                 "modifier": {
                     "type": "power",
                     "value": 0.1,
@@ -1510,7 +1510,7 @@ export const heroesData = [
             },
             {                
                 "name": "Oak Stance",
-                "description": "Increases critical strike chance by 5%.",
+                "description": "Increases critical strike chance by 5.0%.",
                 "modifier": {
                     "type": "crit_chance",
                     "value": 0.05,
@@ -1518,8 +1518,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Asrai Grace",
-                "description": "Increased the cooldown regeneration rate of Dash by 15% for each nearby ally.",
+                "name": "Asrai Alacrity",
+                "description": "Blocking an attack or pushing grants Kerillian's next two strikes 30.0% attack speed and 10.0% power.",
                 "modifier": {
                     "type": "cooldown_reduction",
                     "value": 0.15,
@@ -1541,7 +1541,7 @@ export const heroesData = [
             },
             {                
                 "name": "Willow Stance",
-                "description": "Dodging grants 5% attack speed for 6 seconds. Stacks up to 3 times.",
+                "description": "Dodging grants 5.0% attack speed for 6 seconds. Stacks up to 3 times.",
                 "modifier": {
                     "type": "attack_speed",
                     "value": 0.05,
@@ -1550,8 +1550,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Shadowstep",
-                "description": "Further increases dodge distance by 20%.",
+                "name": "Dance of Blades",
+                "description": "Dodging while blocking increases dodge range by 20.0%. Dodging while not blocking increases the power of Kerillian's next strike by 10.0%.",
                 "modifier": {
                     "type": "dodge_distance",
                     "value": 0.2,
@@ -1564,7 +1564,7 @@ export const heroesData = [
             },
             {                
                 "name": "Heart of Oak",
-                "description": "Increases max health by 15%.",
+                "description": "Increases max health by 15.0%.",
                 "modifier": {
                     "type": "health",
                     "value": 0.15,
@@ -1573,7 +1573,7 @@ export const heroesData = [
             },
             {                
                 "name": "Birch Stance",
-                "description": "Reduces block cost by 30%.",
+                "description": "Reduces block cost by 30.0%.",
                 "modifier": {
                     "type": "block_reduction",
                     "value": 0.3,
@@ -1582,7 +1582,7 @@ export const heroesData = [
             },
             {                
                 "name": "Quiver of Plenty",
-                "description": "Increases ammunition amount by 40%.",
+                "description": "Increases ammunition amount by 40.0%.",
                 "modifier": {
                     "type": "ammo_capacity",
                     "value": 0.4,
@@ -1599,7 +1599,7 @@ export const heroesData = [
             },
             {                
                 "name": "Power from Pain",
-                "description": "Each enemy hit with Dash grants 5% critical strike chance for 10 seconds. Stacks up to 5 times.",
+                "description": "Each enemy hit with Dash grants 5.0% critical strike chance for 15 seconds. Stacks up to 5 times.",
                 "modifier": {
                     "type": "crit_chance",
                     "value": 0.05,
@@ -1648,15 +1648,15 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Bleak Vigour",
-                "description": "Melee critical strikes and headshots grant 2 temporary health. Critical headshots restores twice as much."
+                "description": "Melee critical strikes and headshots restore 2 temporary health. Critical headshots restores twice as much."
             },
             {                
                 "name": "Khaine’s Thirst",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy."
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Blood Kin",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Cruelty",
@@ -1749,7 +1749,7 @@ export const heroesData = [
             },
             {                
                 "name": "Cloak of Mist",
-                "description": "Infiltrate cooldown reduced by 45%. No longer grants a damage bonus on attacking.",
+                "description": "Infiltrate cooldown is reduced by 45%. After leaving stealth, Kerillian gains 100% melee critical strike chance for 4 seconds, but no longer gains a damage bonus on attacking.",
                 "modifier": {
                     "type": "cooldown_reduction",
                     "value": 0.45,
@@ -1819,7 +1819,7 @@ export const heroesData = [
             },
             {                
                 "name": "Templar’s Rally",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Staggering Force",
@@ -2010,19 +2010,19 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Hunter’s Ardour",
-                "description": "Melee critical strikes and headshots grant 2 temporary health. Critical headshots restores twice as much."
+                "description": "Melee critical strikes and headshots restore 2 temporary health. Critical headshots restores twice as much."
             },
             {                
                 "name": "Walking Judgement",
-                "description": "Striking multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Disciplinarian",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Riposte",
-                "description": "Blocking just as an enemy attack is about to hit causes your next melee attack to be a guaranteed critical hit.",
+                "description": "Blocking just as an enemy attack is about to hit causes your next melee attack within 2 seconds to be a guaranteed critical hit.",
                 "modifier": {
                     "type": "crit_chance",
                     "value": 1,
@@ -2044,11 +2044,11 @@ export const heroesData = [
             },
             {                
                 "name": "Mainstay",
-                "description": "Deal 20% more damage to staggered enemies. Each hit against a staggered enemy adds another count of stagger. Headshots and critical hits instead inflict 40% bonus damage, as do strikes against enemies afflicted by more than one stagger effect."
+                "description": "Deal 40% more damage to staggered enemies. Each hit against a staggered enemy adds another count of stagger. Bonus damage is increased to 60% against enemies afflicted by more than one stagger effect."
             },
             {                
                 "name": "Assassin",
-                "description": "Deal 20% more damage to staggered enemies. Each hit against a staggered enemy adds another count of stagger. Bonus damage is increased to 60% against enemies afflicted by more than one stagger effect."
+                "description": "Deal 20% more damage to staggered enemies. Each hit against a staggered enemy adds another count of stagger. Headshots and critical hits instead inflict 40% bonus damage, as do strikes against enemies afflicted by more than one stagger effect"
             },
             {                
                 "name": "Enhanced Power",
@@ -2098,7 +2098,7 @@ export const heroesData = [
             },
             {                
                 "name": "Cast Away",
-                "description": "Pushing an enemy increases stamina regeneration by 40% for 2 seconds.",
+                "description": "Pushing an enemy increases stamina regeneration by 40.0% for 2 seconds.",
                 "modifier": {
                     "type": "stamina_regeneration",
                     "value": 0.4,
@@ -2107,7 +2107,7 @@ export const heroesData = [
             },
             {                
                 "name": "Always Prepared",
-                "description": "Increases max ammunition by 30%.",
+                "description": "Increases max ammunition by 30.0%.",
                 "modifier": {
                     "type": "ammo_capacity",
                     "value": 0.3,
@@ -2186,15 +2186,15 @@ export const heroesData = [
             },
             {                
                 "name": "Tithetaker",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy."
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Paymaster",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Open Wounds",
-                "description": "Critical hits cause enemies to take 20% increased damage for a short duration. Does not stack with similar effects.",
+                "description": "Critical hits cause enemies to take 20.0% increased damage for a short duration. Does not stack with similar effects.",
                 "modifier": {
                     "type": "power",
                     "value": 0.2,
@@ -2203,8 +2203,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Necessary Means",
-                "description": "Gain 25% increased Power when out of ammunition.",
+                "name": "Steel Crescendo",
+                "description": "Upon firing his last shot, Victor gains 15.0% attack speed and 15.0% power for 15 seconds.",
                 "modifier": {
                     "type": "power",
                     "value": 0.25,
@@ -2213,7 +2213,7 @@ export const heroesData = [
             },
             {                
                 "name": "Weight of Fire",
-                "description": "Ranged weapon clip size increases ranged power level by 1% for each ammunition.",
+                "description": "Ranged weapon magazine size increases ranged power level by 1.0% for each ammunition available.",
                 "modifier": {
                     "type": "range_power",
                     "value": 0.01,
@@ -2239,8 +2239,8 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Inspired Shot",
-                "description": "Melee kills reset the cooldown of Blessed Shots."
+                "name": "Blessed Combat",
+                "description": "Melee strikes make up to the next 6 ranged shots deal 15.0% more damage. Ranged hits makes up to the next 6 melee strikes deal 15.0% more damage. Melee kills reset the cooldown for Blessed Shots."
             },
             {                
                 "name": "Cruel Fortune",
@@ -2256,8 +2256,8 @@ export const heroesData = [
                 "description": "Shots affected by Blessed Shots consume no ammunition."
             },
             {                
-                "name": "Hunter’s Pursuit",
-                "description": "Ranged critical hits increase movement speed by 20% for 10 seconds.",
+                "name": "Rile the Mob",
+                "description": "Ranged critical hits grant Victor and his allies 10.0% movement speed for 10 seconds.",
                 "modifier": {
                     "type": "move_speed",
                     "value": 0.2,
@@ -2265,12 +2265,12 @@ export const heroesData = [
                 }
             },
             {                
-                "name": "Duty’s Gift",
-                "description": "Killing an elite while out of ammunition restores 30% of max ammunition."
+                "name": "Salvaged Ammunition",
+                "description": "Killing an Elite while out of ammunition restores 20% of max ammunition. Melee kills reload Victor's ranged weapon."
             },
             {                
                 "name": "Job Well Done",
-                "description": "Killing an elite or special enemy grants 1% damage reduction buff, stacking up to 30 times. Lasts until end of level or death.",
+                "description": "Killing an elite or special enemy grants 1.0% damage reduction buff, stacking up to 30 times. Lasts until end of level or death.",
                 "modifier": {
                     "type": "damage_reduction",
                     "value": 0.01,
@@ -2280,7 +2280,7 @@ export const heroesData = [
             },
             {                
                 "name": "Just Reward",
-                "description": "Ranged critical hits reduce the cooldown of Locked and Loaded by 15%. Can only trigger once every 10 seconds."
+                "description": "Ranged critical hits reduce the cooldown of Locked and Loaded by 20.0%. Can only trigger once every 10 seconds."
             },
             {                
                 "name": "Double-shotted",
@@ -2293,7 +2293,7 @@ export const heroesData = [
             },
             {                
                 "name": "Buckshot",
-                "description": "Modifies Victor’s sidearm to fire two blasts of pellets in a devastating cone. Reduces the cooldown of Locked and Loaded by 25%."
+                "description": "Modifies Victor’s pistol to fire two blasts of shield-penetrating shot in a devestating cone. Each kill with the blast increases the amount of pellets in the next blast."
             }
         ]
     },
@@ -2337,15 +2337,15 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Sigmar’s Herald",
-                "description": "Striking multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Repent! Repent!",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy."
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Font of Zeal",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Castigate",
@@ -2512,7 +2512,7 @@ export const heroesData = [
             },
             {                
                 "name": "Templar’s Rally",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Staggering Force",
@@ -2680,15 +2680,15 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Confound",
-                "description": "Staggering an enemy with a melee attack grants temporary health. Health gained is based on the strength of the stagger."
+                "description": "Staggering enemies with a melee attack grants temporary health. Health gained based stagger strength."
             },
             {                
                 "name": "Spark Thief",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy."
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Flame-Fettled",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Volcanic Force",
@@ -2736,7 +2736,7 @@ export const heroesData = [
             },
             {                
                 "name": "Immersive Immolation",
-                "description": "Hitting 4 or more enemies with one attack grants 15% increased attack speed for 5 seconds (incorrect in-game)."
+                "description": "Hitting 4 or more enemies with one attack grants 15% increased attack speed for 5 seconds."
             },
             {                
                 "name": "Volans' Quickening",
@@ -2788,19 +2788,19 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Spark Smith",
-                "description": "Striking multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Spirit-Binding",
-                "description": "Melee killing blows grants temporary health based on the health of the slain enemy."
+                "description": "Melee killing blows restore temporary health based on the health of the slain enemy."
             },
             {                
                 "name": "Fiery Fortitude",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Ride the Fire Wind",
-                "description": "Increases ranged power level by 1% every second up to a maximum of 20 stacks. Upon reaching max the effect diminishes, then starts over."
+                "description": "Increases ranged power level by 1% every second up to a maximum of 20 stacks. Upon reaching maximum stacks effect diminishes then starts over."
             },
             {                
                 "name": "Martial Study",
@@ -2844,7 +2844,7 @@ export const heroesData = [
             },
             {                
                 "name": "Fleetflame",
-                "description": "Critical hits increase movement speed by 5% for 10 seconds. Stacks up to 3 times."
+                "description": "Critical hits increase movement speed by 5.0% for 10 seconds. Stacks up to 3 times."
             },
             {                
                 "name": "Exhaust",
@@ -2856,7 +2856,7 @@ export const heroesData = [
             },
             {                
                 "name": "Blazing Echo",
-                "description": "The Burning Head critical hits refunds it’s cooldown."
+                "description": "The Burning Head critical hits refunds its cooldown."
             }
         ]
     },
@@ -2899,23 +2899,23 @@ export const heroesData = [
         "talents": [
             {                
                 "name": "Soul Quench",
-                "description": "Staggering an enemy with a melee attack grants temporary health. Health gained is based on the strength of the stagger.v"
+                "description": "Staggering enemies with a melee attack grants temporary health. Health gained based stagger strength."
             },
             {                
                 "name": "Reckless Rampage",
-                "description": "Striking multiple enemies in one swing grants temporary health based on the number of targets hit. Max 5 enemies."
+                "description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
             },
             {                
                 "name": "Burn-Bloom",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Frenzied Flame",
                 "description": "Increases attack speed by 15% while at or above high Overcharge."
             },
             {                
-                "name": "Searing Grasp",
-                "description": "Push attacks ignite enemies with a light damage over time effect."
+                "name": "Outburst",
+                "description": "Pushing an enemy ignites them, causing damage over time. Heavy attacks makes the next push arc 70.0% wider."
             },
             {                
                 "name": "Chain Reaction",
@@ -2943,27 +2943,27 @@ export const heroesData = [
             },
             {                
                 "name": "Numb to Pain",
-                "description": "Reduces damage taken by 5% for 15 seconds after taking damage from venting Overcharge. Stacks up to 3 times."
+                "description": "Reduces damage taken by 5.0% and overcharge generated by Blood Magic by 16.6% for 15 seconds after venting. Stacks 3 times."
             },
             {                
                 "name": "Enfeebling Flames",
                 "description": "Burning enemies deal 30% less damage."
             },
             {                
-                "name": "Burning Dregs",
-                "description": "Dropping below 50% health vents all Overcharge. Can only trigger every 60 seconds."
+                "name": "Abandon",
+                "description": "During overcharge, Sienna expends health to increase ability cooldown rate."
             },
             {                
                 "name": "Natural Talent",
                 "description": "Reduces overcharge generated by 10%."
             },
             {                
-                "name": "Flame Wave",
-                "description": "Increases the radius of Living Bomb's explosion by 50%."
+                "name": "Fuel for the Fire",
+                "description": "Each enemy hit by Living Bomb increases power by 5.0% for 10 seconds. Stacks up to 5 times."
             },
             {                
-                "name": "Fuel for the Fire",
-                "description": "Each enemy hit by Living Bomb increases power by 5% for 10 seconds. Stacks up to 5 times."
+                "name": "Wildfire",
+                "description": "Living Bomb grants Sienna a scorching aura that ignites nearby enemies for 10 seconds, causing damage over time. Increases the stagger power of Living Bomb."
             },
             {                
                 "name": "Bomb Balm",
@@ -3023,7 +3023,7 @@ export const heroesData = [
             },
             {                
                 "name": "Templar’s Rally",
-                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Removes any wounds."
+                "description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20% of their maximum health. Clears any wounds."
             },
             {                
                 "name": "Staggering Force",
