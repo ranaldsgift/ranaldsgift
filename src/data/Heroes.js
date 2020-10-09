@@ -1623,4 +1623,4 @@ export const heroesData = [
 	{
 		"id": 20
 	}
-]
+] 
