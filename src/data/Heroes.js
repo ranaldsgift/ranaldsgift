@@ -716,7 +716,108 @@ export const heroesData = [
 		]
 	},
 	{
-		"id": 17
+		"id": 17,
+		"name": "Outcast Engineer",
+		"codeName": "dr_engineer",
+		"heroName": "Outcast Engineer",
+		"health": 100,
+		"passive": {
+			"name": "Build Pressure",
+			"description": "Holding reload with the Steam-Assisted Crank Gun (Mk II) equipped builds Pressure. Each stack of Pressure lasts for 12 seconds and gradually restores the Ability Bar. Stacks up to 5 times."
+		},
+		"skill": {
+			"name": "Steam-Assisted Crank Gun (Mk II)",
+			"description": "Unleash the fearsome firepower of Bardin's custom creation. Shots reduce the Ability Bar. Any accumulated Pressure is lost upon firing.",
+			"cooldown": "60"
+		},
+		"perks": [
+			{
+				"name": "Gunsmith",
+				"description": "Increases max Ammo by 50%."
+			},
+			{
+				"name": "Spotter",
+				"description": "Increases Ranged Power of nearby allies by 10%."
+			},
+			{
+				"name": "Utility Belt",
+				"description": "Bardin can carry up to 3 Bombs (of any type) at one time. Pressing the Bomb keybind cycles between them."
+			}
+		],
+		"talents": [
+			{
+				"name": "Engineer's Resolve",
+				"description": "Staggering enemies with a melee attack grants temporary health. Health gained based on stagger strength."
+			},
+			{
+				"name": "Morgrim's Enthusiasm",
+				"description": "Damaging multiple enemies in one swing with a melee weapon grants temporary health. Max 5 enemies."
+			},
+			{
+				"name": "Pouch of the Good Stuff",
+				"description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20.0% of their maximum health. Clears any wounds."
+			},
+			{
+				"name": "Leading Shots",
+				"description": "Every 4 Ranged Attack is a guaranteed Critical Hit."
+			},
+			{
+				"name": "Armour Piercing Slugs",
+				"description": "Ranged Attacks pierce 1 additional enemy."
+			},
+			{
+				"name": "Scavenged Shot",
+				"description": "Melee Power is increased by 10%. Every 5 Melee kill makes Bardin's next Ranged Attack consume no Ammo."
+			},
+			{
+				"name": "Bulwark",
+				"description": "Enemies that you stagger take 10% more damage from melee attacks for 2 seconds.Deal 20% more damage to staggered enemies. Each hit against a staggered enemy adds another count of stagger. Bonus damage is increased to 40% against enemies afflicted by more than one stagger effect."
+			},
+			{
+				"name": "Mainstay",
+				"description": "Deal 40% more damage to staggered enemies. Each hit against a staggered enemy adds another count of stagger. Bonus damage is increased to 60% against enemies afflicted by more than one stagger effect."
+			},
+			{
+				"name": "Enhanced Power",
+				"description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+			},
+			{
+				"name": "Full Head of Steam",
+				"description": "Upon reaching 5 stacks of Pressure, Bardin gains 15.0% Power for 10 seconds."
+			},
+			{
+				"name": "Experimental Steam Capacitors",
+				"description": "Pressure stacks are no longer removed upon reaching full charge or firing the Steam-Assisted Crank Gun (Mk II)."
+			},
+			{
+				"name": "Superior Gaskets",
+				"description": "Pressure is not lost over time. Each stack of Pressure grants 2.5% Attack Speed. Max stacks reduced by 1."
+			},
+			{
+				"name": "Ablative Armour",
+				"description": "Every 5 seconds Bardin gains a stack of Damage Reduction. Stacks up to 5 times. Each stack reduces damage taken by 5%. Taking damage removes a stack."
+			},
+			{
+				"name": "Bombardier",
+				"description": "Bardin's Bombs gain the effect of both regular Bombs and Incendiary Bombs."
+			},
+			{
+				"name": "Piston Power",
+				"description": "Every 15 seconds Bardin gains a buff that grants immense Stagger to his next charged attack."
+			},
+			{
+				"name": "Gromril-Plated Shot",
+				"description": "Reduces the Steam-Assisted Crank Gun (Mk II)'s rate of fire, but increases Damage and Armour Penetration."
+			},
+			{
+				"name": "Linked Compression Chamber",
+				"description": "The Steam-Assisted Crank Gun (Mk II) starts firing at full speed, rather than taking time to ramp up."
+			},
+			{
+				"name": "Innovative Ammo Hoppers",
+				"description": "Increases Bardin's Ability Bar by 50%. Killing a Special makes the Steam-Assisted Crank Gun (Mk II) not consume the Ability Bar for the next 4 seconds."
+			}
+		]
 	},
 	{
 		"id": 7,
@@ -766,7 +867,7 @@ export const heroesData = [
 			},
 			{
 				"name": "Serrated Shots",
-				"description": "Enemies hit by non-poisonous ranged attacks bleed for extra damage."
+				"description": "Regular arrows cause enemies to bleed for extra damage."
 			},
 			{
 				"name": "Drakira's Alacrity",
@@ -990,7 +1091,7 @@ export const heroesData = [
 			},
 			{
 				"name": "Bloodfletcher",
-				"description": "Backstabs return 1 bolt or arrow."
+				"description": "Backstabs return 1 bolt or arrow. Can trigger once every 2 seconds."
 			},
 			{
 				"name": "Blood Drinker",
@@ -1623,4 +1724,4 @@ export const heroesData = [
 	{
 		"id": 20
 	}
-] 
+]
