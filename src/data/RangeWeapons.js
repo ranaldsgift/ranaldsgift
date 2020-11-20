@@ -235,7 +235,7 @@ export const rangeWeaponsData = [
     },
     {
         "id": 24,
-        "name": "Pistol",
+        "name": "Masterwork Pistol",
         "codeName": "dr_steam_pistol",
         "canWield": "dr_ironbreaker,dr_ranger,dr_engineer"
     }

@@ -521,7 +521,7 @@ export const meleeWeaponsData = [
     },
     {
         "id": 45,
-        "name": "Coghammer",
+        "name": "Cog Hammer",
         "codeName": "dr_2h_cog_hammer",
         "canWield": "dr_ironbreaker,dr_slayer,dr_ranger,dr_engineer"
     }
