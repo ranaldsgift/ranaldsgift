@@ -475,7 +475,7 @@ export const meleeWeaponsData = [
         "id": 37,
         "name": "Dual Hammers",
         "codeName": "dr_hammers",
-        "canWield": "dr_ironbreaker,dr_slayer,dr_ranger"
+        "canWield": "dr_ironbreaker,dr_slayer,dr_ranger,dr_engineer"
     },
     {
         "id": 38,
