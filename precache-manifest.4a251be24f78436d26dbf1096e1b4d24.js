@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e84c157348bc75279b7066942e44069",
+    "revision": "0c2a9c58e7ef0fe449ef86e013c82ab6",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.74e012fd.chunk.css"
   },
   {
-    "revision": "ec235ed519ed89aa0587",
-    "url": "/static/css/main.231af185.chunk.css"
+    "revision": "fb4ab63526e09d57f3f1",
+    "url": "/static/css/main.fa96240e.chunk.css"
   },
   {
     "revision": "21588192acba2467ae3d",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b045cd3f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec235ed519ed89aa0587",
+    "revision": "fb4ab63526e09d57f3f1",
     "url": "/static/js/main.0eb5a9fc.chunk.js"
   },
   {
@@ -268,6 +268,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dr_crossbow.e6caaee8.png"
   },
   {
+    "revision": "bf85fc019d723eec84be294ff255f1c2",
+    "url": "/static/media/dr_deus_01.bf85fc01.png"
+  },
+  {
     "revision": "ae4eb2ef38645724d5c9086b4877fd2a",
     "url": "/static/media/dr_drake_pistol.ae4eb2ef.png"
   },
@@ -310,6 +314,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "42af29ab0fac5146179e5e08f627ca29",
     "url": "/static/media/es_bastard_sword.42af29ab.png"
+  },
+  {
+    "revision": "eab11392747b5f29e59a59fcf0d594a4",
+    "url": "/static/media/es_deus_01.eab11392.png"
   },
   {
     "revision": "8096e89d4783e37796f7d1ddb006906c",
