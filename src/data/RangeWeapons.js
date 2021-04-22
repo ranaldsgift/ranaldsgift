@@ -238,5 +238,29 @@ export const rangeWeaponsData = [
         "name": "Masterwork Pistol",
         "codeName": "dr_steam_pistol",
         "canWield": "dr_ironbreaker,dr_ranger,dr_engineer"
+    },
+    {
+        "id": 25,
+        "name": "Trollhammer Torpedo",
+        "codeName": "dr_deus_01",
+        "canWield": "dr_ironbreaker, dr_engineer"
+    },
+    {
+        "id": 26,
+        "name": "Moonfire Bow",
+        "codeName": "we_deus_01",
+        "canWield": "we_shade,we_maidenguard,we_waywatcher"
+    },
+    {
+        "id": 27,
+        "name": "Griffon-foot",
+        "codeName": "wh_deus_01",
+        "canWield": "wh_zealot,wh_bountyhunter,wh_captain"
+    },
+    {
+        "id": 28,
+        "name": "Coruscation Staff",
+        "codeName": "bw_deus_01",
+        "canWield": "bw_scholar,bw_adept,bw_unchained"
     }
 ]
