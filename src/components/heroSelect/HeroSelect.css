@@ -125,6 +125,6 @@
   text-transform: uppercase;
 }
 
-.hero-select-container .hero-icon-18, .hero-select-container .hero-icon-19, .hero-select-container .hero-icon-20 {
+.hero-select-container .hero-icon-19, .hero-select-container .hero-icon-20 {
   pointer-events: none;
 }

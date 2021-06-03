@@ -155,7 +155,7 @@ export const rangeWeaponsData = [
         "name": "Longbow",
         "codeName": "we_longbow",
         "description": "weapon_keyword_armour_piercing,weapon_keyword_sniper,weapon_keyword_versatile",
-        "canWield": "we_shade,we_maidenguard,we_waywatcher",
+        "canWield": "we_shade,we_maidenguard,we_waywatcher,we_thornsister",
         "dodgeCount": 3,
         "dodgeDistance": 1,
         "clipSize": 1,
@@ -166,7 +166,7 @@ export const rangeWeaponsData = [
         "name": "Swiftbow",
         "codeName": "we_shortbow",
         "description": "weapon_keyword_rapid_fire,weapon_keyword_crowd_control,weapon_keyword_headshotting",
-        "canWield": "we_shade,we_maidenguard,we_waywatcher",
+        "canWield": "we_shade,we_maidenguard,we_waywatcher,we_thornsister",
         "dodgeCount": 6,
         "dodgeDistance": 1.25,
         "clipSize": 1,
@@ -177,7 +177,7 @@ export const rangeWeaponsData = [
         "name": "Hagbane Shortbow",
         "codeName": "we_shortbow_hagbane",
         "description": "weapon_keyword_damage_over_time,weapon_keyword_rapid_fire,weapon_keyword_crowd_control",
-        "canWield": "we_shade,we_maidenguard,we_waywatcher",
+        "canWield": "we_shade,we_maidenguard,we_waywatcher,we_thornsister,we_thornsister",
         "dodgeCount": 6,
         "dodgeDistance": 1.25,
         "clipSize": 1,
@@ -249,7 +249,7 @@ export const rangeWeaponsData = [
         "id": 26,
         "name": "Moonfire Bow",
         "codeName": "we_deus_01",
-        "canWield": "we_shade,we_maidenguard,we_waywatcher"
+        "canWield": "we_shade,we_maidenguard,we_waywatcher,we_thornsister"
     },
     {
         "id": 27,
@@ -262,5 +262,18 @@ export const rangeWeaponsData = [
         "name": "Coruscation Staff",
         "codeName": "bw_deus_01",
         "canWield": "bw_scholar,bw_adept,bw_unchained"
+    },
+    {
+        "id": 29,
+        "name": "Deepwood Staff",
+        "codeName": "we_life_staff",
+        "canWield": "we_thornsister"
+    },
+    {
+        "id": 30,
+        "name": "Briar Javelin",
+        "codeName": "we_javelin",
+        "canWield": "we_shade,we_maidenguard,we_waywatcher,we_thornsister"
     }
+
 ]

@@ -763,11 +763,11 @@ export const heroesData = [
 			},
 			{
 				"name": "Armour Piercing Slugs",
-				"description": "Ranged Attacks pierce 1 additional enemy."
+				"description": "Non-Explosive Ranged Attacks pierce 1 additional enemies."
 			},
 			{
-				"name": "Scavenged Shot",
-				"description": "Melee Power is increased by 10%. Every 5 Melee kill makes Bardin's next Ranged Attack consume no Ammo."
+				"name": "Combined Arms",
+				"description": "Melee Power is increased by 10%. Each 5 Melee kill makes Bardin's next Ranged Attack grant 15% Ranged Power for 10 seconds."
 			},
 			{
 				"name": "Bulwark",
@@ -1120,7 +1120,108 @@ export const heroesData = [
 		]
 	},
 	{
-		"id": 18
+		"id": 18,
+		"name": "Sister of the Thorn",
+		"codeName": "we_thornsister",
+		"heroName": "Sister of the Thorn",
+		"health": 125,
+		"passive": {
+			"name": "A Cluster of Radiants",
+			"description": "Kerillian is granted Radiance (a free use of her career skill) every 60 seconds."
+		},
+		"skill": {
+			"name": "Thornwake",
+			"description": "Kerillian conjures a Thorn Wall that hinders enemy movement. The Thorn Wall lasts for 6 seconds.",
+			"cooldown": "40"
+		},
+		"perks": [
+			{
+				"name": "A Murder of Spites",
+				"description": "Kerillian deals up to 50% more damage to wounded targets depending on their remaining health."
+			},
+			{
+				"name": "A Sustenance of Leechlings",
+				"description": "Whenever another party member receives temporary health while at full health, Kerillian gains temporary health instead."
+			},
+			{
+				"name": "An Attendance of Munificents",
+				"description": "All healing received by the party is increased by 25%."
+			}
+		],
+		"talents": [
+			{
+				"name": "Weavebond",
+				"description": "Melee critical strikes and headshots restore 2 temporary health. Critical headshots restores twice as much."
+			},
+			{
+				"name": "Martial Blessing",
+				"description": "Melee killing blows restore temporary health based on the health of the slain enemy."
+			},
+			{
+				"name": "Eternal Blossom",
+				"description": "Healing yourself with a First Aid Kit or a Healing Draught also heals your nearby allies for 20.0% of their maximum health. Clears any wounds."
+			},
+			{
+				"name": "Surge of Malice",
+				"description": "While above 90% health Kerilian gains 15% Attack Speed."
+			},
+			{
+				"name": "Atharti's Delight",
+				"description": "Critical Strikes make the target Bleed."
+			},
+			{
+				"name": "Isha's Bounty",
+				"description": "Gaining health grants 5% Power for 8 seconds. Stacks up to 3 times."
+			},
+			{
+				"name": "Smiter",
+				"description": "The first enemy hit always counts as staggered.Deal 20% more damage to staggered enemies. Each hit against a staggered enemy adds another count of stagger. Bonus damage is increased to 40% against enemies afflicted by more than one stagger effect."
+			},
+			{
+				"name": "Mainstay",
+				"description": "Deal 40% more damage to staggered enemies. Each hit against a staggered enemy adds another count of stagger. Bonus damage is increased to 60% against enemies afflicted by more than one stagger effect."
+			},
+			{
+				"name": "Enhanced Power",
+				"description": "Increases total Power Level by 7%. This is calculated before other buffs are applied."
+			},
+			{
+				"name": "Incandescence",
+				"description": "Radiance can stack 2 times."
+			},
+			{
+				"name": "Hekarti's Cruel Bargain",
+				"description": "For each Elite enemy slain near Kerillian, the cooldown of Radiance decreases by 1 seconds."
+			},
+			{
+				"name": "Radiant Inheritance",
+				"description": "Consuming Radiance grants Kerillian vastly increased combat potency for 15 seconds."
+			},
+			{
+				"name": "The Pale Queen's Choosing",
+				"description": "Every 8 seconds, Kerillian's next Ranged Attack consumes no resource and restores 3 permanent health."
+			},
+			{
+				"name": "Morai-Heg's Doomsight",
+				"description": "Gain 3 guaranteed Critical Strikes each time a career skill is used."
+			},
+			{
+				"name": "Repel",
+				"description": "Pushing at full Stamina increases the strength and range of the push by 100%."
+			},
+			{
+				"name": "Ironbark Thicket",
+				"description": "Increases the Duration of the Thorn Wall to 10 seconds."
+			},
+			{
+				"name": "Bloodrazor Thicket",
+				"description": "Increases the Thorn Wall's eruption damage and makes it apply Bleed, but lower both size and duration."
+			},
+			{
+				"name": "Blackvenom Thicket",
+				"description": "When the Thorn Wall expires, poisonous thorns explode outward, causing nearby enemies to take 20% increased damage for 10 seconds."
+			}
+		]
 	},
 	{
 		"id": 10,

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c2a9c58e7ef0fe449ef86e013c82ab6",
+    "revision": "3596e386a00f58f583e35deec2cab00f",
     "url": "/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.74e012fd.chunk.css"
   },
   {
-    "revision": "fb4ab63526e09d57f3f1",
-    "url": "/static/css/main.fa96240e.chunk.css"
+    "revision": "271cf721fd79cf1223cc",
+    "url": "/static/css/main.a3f2921e.chunk.css"
   },
   {
     "revision": "21588192acba2467ae3d",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b045cd3f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fb4ab63526e09d57f3f1",
-    "url": "/static/js/main.0eb5a9fc.chunk.js"
+    "revision": "271cf721fd79cf1223cc",
+    "url": "/static/js/main.6b623d3b.chunk.js"
   },
   {
     "revision": "0473bb2375f0bcada7aa",
@@ -476,6 +476,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/passive.c874dbb0.png"
   },
   {
+    "revision": "cee6bf63b4830648eeb2f44a82191443",
+    "url": "/static/media/passive.cee6bf63.png"
+  },
+  {
     "revision": "e1a238d8cd9d8f3cfe174822bf81fba0",
     "url": "/static/media/passive.e1a238d8.png"
   },
@@ -546,6 +550,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bc83b68b62cfc3a4b503b75e282a2145",
     "url": "/static/media/portrait.bc83b68b.png"
+  },
+  {
+    "revision": "c8ca44df23b489c52cdd6980d9198003",
+    "url": "/static/media/portrait.c8ca44df.png"
   },
   {
     "revision": "cef049b9546ec20de2eb10a9be99d882",
@@ -644,6 +652,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/skill.2aa7334f.png"
   },
   {
+    "revision": "4834f47eac5ef7a07e9a6eb11dff0372",
+    "url": "/static/media/skill.4834f47e.png"
+  },
+  {
     "revision": "5b65efe31075b140eb51a5959a11e1d1",
     "url": "/static/media/skill.5b65efe3.png"
   },
@@ -694,6 +706,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "11d57370f2b8241384c566b55e35d789",
     "url": "/static/media/talent-01.11d57370.png"
+  },
+  {
+    "revision": "29f3e2ba3fff2487ba6c5f7aac17f99b",
+    "url": "/static/media/talent-01.29f3e2ba.png"
   },
   {
     "revision": "2be5e85177dd8ba716388636c4db89a6",
@@ -788,6 +804,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/talent-02.86c34ce0.png"
   },
   {
+    "revision": "8cddcfd99fe21c56db9fd6718411c9d3",
+    "url": "/static/media/talent-02.8cddcfd9.png"
+  },
+  {
     "revision": "95ae8e469f5359b3d460c1b65b2d77d9",
     "url": "/static/media/talent-02.95ae8e46.png"
   },
@@ -858,6 +878,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7f9b2054f0b1b97ee0ae7717188c5c68",
     "url": "/static/media/talent-03.7f9b2054.png"
+  },
+  {
+    "revision": "9513a42a810383199af7c972355a1fcf",
+    "url": "/static/media/talent-03.9513a42a.png"
   },
   {
     "revision": "96aa557c593b1988db8e98e5713d38d5",
@@ -1016,6 +1040,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/talent-05.d57d1bba.png"
   },
   {
+    "revision": "e81949b9da6518e6140f5487fc9d2ff6",
+    "url": "/static/media/talent-05.e81949b9.png"
+  },
+  {
     "revision": "f22a65cb9121de84620ba165716e3f96",
     "url": "/static/media/talent-05.f22a65cb.png"
   },
@@ -1062,6 +1090,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "82d501e35301feb5e88f55bbb7959d45",
     "url": "/static/media/talent-06.82d501e3.png"
+  },
+  {
+    "revision": "930e3078b4d199de7caee934627f97be",
+    "url": "/static/media/talent-06.930e3078.png"
   },
   {
     "revision": "aea0799e143ee9fc29b7dd14a22567e2",
@@ -1148,6 +1180,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/talent-07.c091bff3.png"
   },
   {
+    "revision": "d47a8b7b6215c01cab3ff82c0c99e8ae",
+    "url": "/static/media/talent-07.d47a8b7b.png"
+  },
+  {
     "revision": "d7dfddc99b6c10a2b4f9a30c096b5bc9",
     "url": "/static/media/talent-07.d7dfddc9.png"
   },
@@ -1224,12 +1260,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/talent-08.f0a87442.png"
   },
   {
+    "revision": "f76e42463e9a9ddd4b5fc53196d938cd",
+    "url": "/static/media/talent-08.f76e4246.png"
+  },
+  {
     "revision": "ffb932be1618027752b389a92b31fa94",
     "url": "/static/media/talent-08.ffb932be.png"
   },
   {
     "revision": "07a367aa76bdb980754031200cb99a6a",
     "url": "/static/media/talent-09.07a367aa.png"
+  },
+  {
+    "revision": "0be4a25c6cedeb89e58305100ad02100",
+    "url": "/static/media/talent-09.0be4a25c.png"
   },
   {
     "revision": "48c6d79e4399d3ad94eeb155f0d8a400",
@@ -1304,6 +1348,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/talent-10.1983fa91.png"
   },
   {
+    "revision": "25a6d872c2909098e9268a3afbfca0f1",
+    "url": "/static/media/talent-10.25a6d872.png"
+  },
+  {
     "revision": "333466ca17e2a3269c74363b98000358",
     "url": "/static/media/talent-10.333466ca.png"
   },
@@ -1370,6 +1418,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1a1c06dfa0517e5294dc9480e4634e83",
     "url": "/static/media/talent-11.1a1c06df.png"
+  },
+  {
+    "revision": "2d7108104c2684d2ad676f90bc151a2b",
+    "url": "/static/media/talent-11.2d710810.png"
   },
   {
     "revision": "2f54cbbdd753aaeb4811ff88367f85bd",
@@ -1480,6 +1532,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/talent-12.c6d5bce4.png"
   },
   {
+    "revision": "cd46e7b71d6e9ccb5fe5174e78a85cda",
+    "url": "/static/media/talent-12.cd46e7b7.png"
+  },
+  {
     "revision": "d9431e463c77ccfc7e6d306fbb9b04a9",
     "url": "/static/media/talent-12.d9431e46.png"
   },
@@ -1556,6 +1612,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/talent-13.d9a809c3.png"
   },
   {
+    "revision": "efa164fffed6a169295d9c6a09a77d3b",
+    "url": "/static/media/talent-13.efa164ff.png"
+  },
+  {
     "revision": "f2b50a5f824ac00bac2a41d673486f8c",
     "url": "/static/media/talent-13.f2b50a5f.png"
   },
@@ -1586,6 +1646,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "571680bc215163b773402670cb5a39ce",
     "url": "/static/media/talent-14.571680bc.png"
+  },
+  {
+    "revision": "59067c30cab7be455490cfc8fdaa5bff",
+    "url": "/static/media/talent-14.59067c30.png"
   },
   {
     "revision": "5a1da07ca73543b2b79678b2a91123aa",
@@ -1630,6 +1694,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ff80b2777616b2a83f1e3b6c6ef5736f",
     "url": "/static/media/talent-14.ff80b277.png"
+  },
+  {
+    "revision": "1889916b2ffa3db403bd7a65283a953d",
+    "url": "/static/media/talent-15.1889916b.png"
   },
   {
     "revision": "2393d31a86a07be31c4b49104d94ea90",
@@ -1760,6 +1828,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/talent-16.bc82c105.png"
   },
   {
+    "revision": "c427e28314147da28211653e2d4a3940",
+    "url": "/static/media/talent-16.c427e283.png"
+  },
+  {
     "revision": "c93ae7a3f1c7318b87247ccd8779993c",
     "url": "/static/media/talent-16.c93ae7a3.png"
   },
@@ -1774,6 +1846,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1cf1eb5406cae4af08ec0109ad04df83",
     "url": "/static/media/talent-17.1cf1eb54.png"
+  },
+  {
+    "revision": "3d1fb0614dee07d9af30b9d2ff6136f9",
+    "url": "/static/media/talent-17.3d1fb061.png"
   },
   {
     "revision": "4e754698ac02922f9629cf4bedbb94d4",
@@ -1838,6 +1914,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "193dde77ad70e2837bd6219b11de0ab9",
     "url": "/static/media/talent-18.193dde77.png"
+  },
+  {
+    "revision": "1b85caeca2ba88381d199e690803e742",
+    "url": "/static/media/talent-18.1b85caec.png"
   },
   {
     "revision": "2aa880036a97f8f64da455a341ffadb9",
