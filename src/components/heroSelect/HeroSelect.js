@@ -52,6 +52,7 @@ class HeroSelect extends Component {
   }
 
   updateHeroSelect(e) {
+    // eslint-disable-next-line
     const [state, updateState] = this.context;
     updateState({type: "UPDATE_CAREER", payload: e.target.dataset.career})
   }

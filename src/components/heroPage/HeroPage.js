@@ -52,6 +52,7 @@ class HeroPage extends Component {
       updateState({type: "UPDATE_ALL_TALENTS", payload: this.talents});
     }
 
+    // eslint-disable-next-line
     var urlState = `${state.careerId}/${Object.values(state.talents).join('')}/${state.meleeId},${state.properties[0]},${state.properties[1]},${state.traits[0]}/${state.rangeId},${state.properties[2]},${state.properties[3]},${state.traits[1]}/${state.properties[4]},${state.properties[5]},${state.traits[2]}/${state.properties[6]},${state.properties[7]},${state.traits[3]}/${state.properties[8]},${state.properties[9]},${state.traits[4]}`
 
     return (

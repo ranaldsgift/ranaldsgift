@@ -61,6 +61,7 @@ class EditBuildPage extends Component {
     }
 
     handleAddNewBuild() {
+        // eslint-disable-next-line
         const [state, updateState] = this.context;
         updateState({type: 'SAVE_BUILD', payload: '0'});
     }

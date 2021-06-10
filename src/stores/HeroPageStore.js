@@ -1,6 +1,7 @@
 import React from 'react'
 import { AppContext } from './Store';
 import {withRouter} from 'react-router';
+// eslint-disable-next-line
 import Firebase from '../utils/Firebase'
 
 const HeroPageContext = React.createContext();

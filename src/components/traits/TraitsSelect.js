@@ -20,6 +20,7 @@ class TraitsSelect extends Component {
     }
 
     handleTraitSelectChange(e) {
+        // eslint-disable-next-line
         const [state, updateState] = this.context;
         
         updateState({

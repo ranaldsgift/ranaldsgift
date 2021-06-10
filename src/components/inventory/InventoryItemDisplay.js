@@ -19,6 +19,7 @@ class InventoryItemDisplay extends Component
           }
           return this.renderItemDisplay(this.props.item, propertiesData.melee, traitsData.melee, 0, 1, 0);
         case 'range':
+          // eslint-disable-next-line
           if (parseInt(state.careerId) === 6 && this.props.item.name.indexOf('Throwing Axes') < 0 || parseInt(state.careerId) === 16) {
             return this.renderItemDisplay(this.props.item, propertiesData.melee, traitsData.melee, 2, 3, 1);
           }

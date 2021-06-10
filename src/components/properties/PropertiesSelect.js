@@ -20,6 +20,7 @@ class PropertiesSelect extends Component {
     }
 
     handlePropertySelectChange(e) {
+        // eslint-disable-next-line
         const [state, updateState] = this.context;
         
         updateState({

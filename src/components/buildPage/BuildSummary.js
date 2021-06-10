@@ -42,6 +42,7 @@ class BuildSummary extends Component {
     var rangeProperty1 = propertiesData.range.find((property) => { return parseInt(property.id) === parseInt(state.properties[2]); });
     var rangeProperty2 = propertiesData.range.find((property) => { return parseInt(property.id) === parseInt(state.properties[3]); });
 
+    // eslint-disable-next-line
     if (parseInt(state.careerId) === 6  && range.name.indexOf('Throwing Axes') < 0 || parseInt(state.careerId) === 16) {
         rangeProperty1 = propertiesData.melee.find((property) => { return parseInt(property.id) === parseInt(state.properties[2]); });
         rangeProperty2 = propertiesData.melee.find((property) => { return parseInt(property.id) === parseInt(state.properties[3]); });
@@ -72,6 +73,7 @@ class BuildSummary extends Component {
         meleeTrait = traitsData.range.find((trait) => { return parseInt(trait.id) === parseInt(state.traits[0]); });
     }
 
+    // eslint-disable-next-line
     if (parseInt(state.careerId) === 6 && range.name.indexOf('Throwing Axes') < 0 || parseInt(state.careerId) === 16) {
         rangeTrait = traitsData.melee.find((trait) => { return parseInt(trait.id) === parseInt(state.traits[1]); });
     }

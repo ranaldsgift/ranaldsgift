@@ -74,6 +74,7 @@ class ItemSelect extends Component {
   }
 
   itemSelectChanged(e) {
+    // eslint-disable-next-line
     const [state, updateState] = this.context;
     updateState({
         type: "UPDATE_ITEM_SELECT", 

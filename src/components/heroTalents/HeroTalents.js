@@ -45,6 +45,7 @@ class HeroTalents extends Component {
   }
 
   renderTalent(careerId, tier, talentNumber, talents, selectedTalents) {
+    // eslint-disable-next-line
     const [state, updateState] = this.context;
     var talentString = `talent-${careerId.toString().padStart(2, "0")}${talentNumber.toString().padStart(2, "0")}`;
     var talentClassName = `hero-talent tier-${tier}`;
