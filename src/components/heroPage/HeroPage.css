@@ -237,8 +237,8 @@
 }
 .hero-container .hero-summary-tab {
   display: grid;
-  grid-template-areas: "heroOverview" "heroPageStateUrl" "heroTalents";
-  grid-template-rows: auto auto 1fr;
+  grid-template-areas: "heroOverview" "heroPageStateUrl" "saveBuildButton" "heroTalents";
+  grid-template-rows: auto auto auto 1fr;
   height: calc(100% - 34px);
 }
 .hero-overview-container {
@@ -278,4 +278,28 @@
 
 .hero-container .container-tabs-list li {
   cursor: initial;
+}
+.save-build-url-state {
+  grid-area: saveBuildButton;
+  display: grid;
+  background: #000;
+  color: #f0f0f0;
+  position: relative;
+  height: 40px;
+  align-content: center;
+  text-decoration: none;
+}
+
+.save-build-url-state::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  margin-left: 20px;
+  left: 50%;
+  width: 28px;
+  height: 28px;
+  background: url('../../assets/images/icons/link.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }

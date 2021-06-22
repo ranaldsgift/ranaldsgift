@@ -71,6 +71,7 @@ class HeroPage extends Component {
                 <BuildSummary></BuildSummary>
               </div>
               <span className="hero-page-url-state" onClick={this.copyUrlStateToClipboard.bind(this)}></span>
+              <a href={`${this.getNewUrl()}`} className="save-build-url-state border-01">Save</a>
               <HeroTalents contextActionType="UPDATE_HERO_TALENTS" careerId={this.careerId} talents={this.talents}></HeroTalents>
             </TabPanel>
             <TabPanel className="hero-builds-tab">
@@ -86,6 +87,16 @@ class HeroPage extends Component {
     );
   }
 
+  copyNewUrlStateToClipboard() {
+    var urlState = this.getNewUrl();
+
+    navigator.clipboard.writeText(urlState).then(function() {
+      /* clipboard successfully set */
+    }, function() {
+      /* clipboard write failed */
+    });
+  }
+
   copyUrlStateToClipboard() {
     const [state] = this.context;
     var urlState = `https://www.ranaldsgift.com/${state.careerId}/${Object.values(state.talents).join('').replace(/-1/g, '0')}/${state.meleeId},${state.properties[0]},${state.properties[1]},${state.traits[0]}/${state.rangeId},${state.properties[2]},${state.properties[3]},${state.traits[1]}/${state.properties[4]},${state.properties[5]},${state.traits[2]}/${state.properties[6]},${state.properties[7]},${state.traits[3]}/${state.properties[8]},${state.properties[9]},${state.traits[4]}`
@@ -95,6 +106,11 @@ class HeroPage extends Component {
     }, function() {
       /* clipboard write failed */
     });
+  }
+
+  getNewUrl() {
+    const [state] = this.context;
+    return `https://www.ranalds.gift/heroes/${state.careerId}/${Object.values(state.talents).join('').replace(/-1/g, '0')}/${state.meleeId},${state.properties[0]},${state.properties[1]},${state.traits[0]}/${state.rangeId},${state.properties[2]},${state.properties[3]},${state.traits[1]}/${state.properties[4]},${state.properties[5]},${state.traits[2]}/${state.properties[6]},${state.properties[7]},${state.traits[3]}/${state.properties[8]},${state.properties[9]},${state.traits[4]}`;
   }
 }
 
