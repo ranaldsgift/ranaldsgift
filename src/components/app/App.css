@@ -487,3 +487,22 @@ select {
   margin: 0;
   z-index: 2;
 }
+
+.new-site-banner {
+  position: absolute;
+  left: calc(50% - 91px);
+  top: 58px;
+  padding: 5px 10px;
+  z-index: 3;
+  background: url('../../assets/images/backgrounds/background27.png');
+  border-image: url('../../assets/images/borders/border-03.png');
+  border-image-slice: 15;
+  border-image-width: 15px;
+  border-style: solid;
+  border-image-repeat: repeat;
+  cursor: pointer;
+}
+.new-site-banner a {
+  color: #edfded !important;
+  text-decoration: none !important;
+}

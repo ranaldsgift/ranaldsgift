@@ -21,6 +21,7 @@ class App extends Component {
     return (
       <BrowserRouter>
       <div className="App">
+        <span class="new-site-banner"><a href="https://www.ranalds.gift">NOTICE: NEW WEBSITE</a></span>
         <Background></Background>
         <div className="page-title-label label-01"></div>
         <div className="page-title-label-background"></div>
